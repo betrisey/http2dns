@@ -6,4 +6,10 @@ if(process.argv[2]) {
 var http2dns = require('./app');
 var request = require('request').defaults({'proxy':'http://localhost:' + port});
 
-request('http://google.com/');
+request('http://google.com/', function(err, res, body) {
+	if(err) {
+		throw(err);
+	} else {
+		process.exit();		
+	}
+});
