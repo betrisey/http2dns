@@ -4,7 +4,7 @@
   "description": "Proxy server allowing HTTP requests to pass throught the DNS port (53)",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
