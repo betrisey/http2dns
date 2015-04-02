@@ -1,0 +1,29 @@
+{
+  "name": "http2dns",
+  "version": "1.0.0",
+  "description": "Proxy server allowing HTTP requests to pass throught the DNS port (53)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/betrisey/http2dns.git"
+  },
+  "keywords": [
+    "proxy",
+    "http",
+    "throught",
+    "dns",
+    "tunneling"
+  ],
+  "author": "Samuel Bétrisey (me@sam.ninja)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betrisey/http2dns/issues"
+  },
+  "homepage": "https://github.com/betrisey/http2dns",
+  "dependencies": {
+    "request": "^2.54.0"
+  }
+}
